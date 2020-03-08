@@ -1,0 +1,15 @@
+{
+    "id": "{82A64143-523B-0485-94CC-9DAF2E1BCD9C}",
+    "name": "Auswertung",
+    "type": 3,
+    "vendor": "Solaredge",
+    "aliases":
+    [
+        "Solaredge Wechselrichter"
+    ],
+    "url": "www.der-stegmann.de",
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "A"
+}
