@@ -48,7 +48,7 @@
 
                 $apikey = $apikey;
                 $id = $id; 
-                $content = Sys_GetURLContent("https://monitoringapi.solaredge.com/site/".$id."/overview?api_key=".$apikey);  
+                $content = Sys_GetURLContent("https://monitoringapi.solaredge.com/site/".$id."/overview?api_key=".$apikey);
                 $json=json_decode($content);
 
                 $cache = $json->overview->currentPower->power / 1000;
