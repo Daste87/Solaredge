@@ -17,7 +17,7 @@
             $this->RegisterPropertyString("ApiKey", "");
             $this->RegisterPropertyString("Id", "");
 
-            $this->RegisterTimer("Update", 9000000, 'A_UpdateAuswertung(' . $this->InstanceID . ', "1045947","WYWW852RZQX31AU0ZMKEGWYQ4QKBHFXG");');
+            $this->RegisterTimer("Update", 9000000, 'A_UpdateAuswertung(' . $this->InstanceID . ', "Id","ApiKey");');
             
         }
         
@@ -28,12 +28,9 @@
             parent::ApplyChanges();
 
             $this->SetTimerInterval("Update", $this->ReadPropertyInteger("Aktualisierungsinvertall") * 1000);
-            //$this->ReadPropertyString("ApiKey");
-            //$this->ReadPropertyString("Id");
 
 
             $this->UpdateAuswertung($this->ReadPropertyString("Id"),$this->ReadPropertyString("ApiKey"));
-            //$this->UpdateAuswertung("1045947","WYWW852RZQX31AU0ZMKEGWYQ4QKBHFXG");
         }
 
  
