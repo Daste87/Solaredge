@@ -1,0 +1,26 @@
+{
+    "elements": [
+        {
+            "type": "ValidationTextBox",
+            "name": "ApiKey",
+            "value": "",
+            "caption": "API-Key"
+        },
+        {
+            "type": "ValidationTextBox",
+            "name": "Id",
+            "value": "",
+            "caption": "ID"
+        },
+        {
+            "type": "NumberSpinner",
+            "name": "Aktualisierungsinvertall",
+            "value": "",
+            "caption": "Aktualisierungsinvertall",
+            "suffix": "Sekunden",
+            "minimum": "330"
+        }
+    ],
+    "actions": [],
+    "status": []
+}

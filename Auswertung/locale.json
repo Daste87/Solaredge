@@ -1,0 +1,11 @@
+{
+    "translations": {
+        "de": {
+            "Actual":"Aktuell",
+            "Today":"Heute",
+            "Month":"Monat",
+            "Year":"Jahr",
+            "Total":"Gesamt"
+        }
+    }
+}

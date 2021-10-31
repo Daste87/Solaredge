@@ -1,0 +1,12 @@
+{
+    "id": "{0A4CC74B-3028-D436-41CD-29E1B578345A}",
+    "name": "Auswertung",
+    "type": 3,
+    "vendor": "Solaredge",
+    "aliases": [],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "A",
+    "url": ""
+}

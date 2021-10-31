@@ -1,0 +1,12 @@
+{
+    "id": "{D411E9DE-938A-C264-8D37-50C75E3F292A}",
+    "name": "Solaredge",
+    "author": "Daniel Stegmann",
+    "url": "",
+    "compatibility": {
+        "version": "5.5"
+    },
+    "version": "1.0",
+    "build": 0,
+    "date": 11
+}
